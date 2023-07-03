@@ -98,6 +98,25 @@ a {
 
 /* Tablet */
 
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  #intro .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #intro .col {
+    width: calc(100% / 3);
+  }
+
+  #intro .col:first-child {
+    width: calc(100% / 3 * 2);
+  }
+}
+
 /* Desktop */
 
 @media screen and (min-width: 992px) {
