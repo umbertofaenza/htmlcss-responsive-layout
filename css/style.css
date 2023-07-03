@@ -36,6 +36,14 @@ a {
   padding-top: 80px;
 }
 
+.row {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+.col {
+  padding: 1rem;
+}
+
 /* 
 *************
    SECTIONS *
@@ -70,6 +78,16 @@ a {
 
 .desktop-menu > ul > li {
   padding: 0 15px;
+}
+
+/* Intro */
+
+#intro {
+  margin: 50px 0;
+}
+#intro .card {
+  background-color: #9ad4f2;
+  padding: 1rem;
 }
 
 /* 
