@@ -10,6 +10,15 @@
   padding: 0;
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
 /* 
 *************
     LAYOUT  *
@@ -51,8 +60,38 @@
   justify-content: space-between;
 }
 
+.desktop-menu {
+  display: none;
+}
+
+.desktop-menu > ul {
+  display: flex;
+}
+
+.desktop-menu > ul > li {
+  padding: 0 15px;
+}
+
 /* 
 *************
  RESPONSIVE *
 *************
 */
+
+/* Tablet */
+
+/* Desktop */
+
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 992px;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+  .desktop-menu {
+    display: flex;
+  }
+}
