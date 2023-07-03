@@ -131,4 +131,12 @@ a {
   .desktop-menu {
     display: flex;
   }
+
+  #intro .card__half {
+    width: 50%;
+  }
+
+  #intro .card.large-card {
+    display: flex;
+  }
 }
