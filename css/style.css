@@ -45,6 +45,10 @@ a {
   padding: 1rem;
 }
 
+section {
+  padding: 50px 0;
+}
+
 /* 
 *************
    SECTIONS *
@@ -83,9 +87,6 @@ a {
 
 /* Intro */
 
-#intro {
-  margin: 50px 0;
-}
 #intro .card {
   background-color: #9ad4f2;
   padding: 1rem;
@@ -95,11 +96,17 @@ a {
 
 #planning {
   background-color: #9792e4;
-  padding: 50px 0;
 }
 
 #planning .col {
   border: 1px solid black;
+}
+
+/* Testimonials */
+
+#testimonials .card {
+  background-color: #9792e4;
+  padding: 1rem;
 }
 
 /* 
