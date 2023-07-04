@@ -100,7 +100,7 @@ a {
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    width: 100%;
   }
 
   #intro .row {
@@ -121,7 +121,7 @@ a {
 
 @media screen and (min-width: 992px) {
   .container {
-    max-width: 992px;
+    width: 80%;
   }
 
   .mobile-menu {
