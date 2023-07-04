@@ -203,7 +203,7 @@ section,
 
 #planning .card {
   border-radius: 50px;
-  padding: 50px;
+  padding: 25px 40px;
 }
 
 #planning .card p {
@@ -336,7 +336,7 @@ section,
 
   /* planning */
   #planning .container {
-    width: 60%;
+    width: 80%;
   }
 
   #planning .row {
@@ -345,6 +345,20 @@ section,
 
   #planning .col {
     width: 50%;
+  }
+
+  #planning h2 {
+    font-size: 2rem;
+  }
+
+  #planning .card img {
+    width: 70%;
+  }
+
+  #planning .col:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
   }
 
   /* benefits */
