@@ -326,6 +326,23 @@ section,
     width: 50%;
   }
 
+  /* testimonials */
+  #testimonials .card-content {
+    flex-direction: row;
+  }
+
+  #testimonials .card-content .card-media {
+    width: 50%;
+  }
+
+  #testimonials .card-content .card-text {
+    text-align: left;
+  }
+
+  #testimonials .card-content .card-text p {
+    margin-bottom: 25px;
+  }
+
   /* benefits */
   #benefits .row.benefits__cards {
     display: flex;
