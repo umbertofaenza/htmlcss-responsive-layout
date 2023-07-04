@@ -98,6 +98,11 @@ section {
   background-color: #9792e4;
 }
 
+#planning .card {
+  background-color: white;
+  padding: 1rem;
+}
+
 /* Testimonials */
 
 #testimonials .card {
