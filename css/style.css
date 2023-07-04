@@ -121,6 +121,11 @@ section {
   padding: 1rem;
 }
 
+/* Get Started */
+#get-started {
+  background-color: #9792e4;
+}
+
 /* 
 *************
  RESPONSIVE *
@@ -216,7 +221,6 @@ section {
   }
 
   /* about us */
-
   #about-us .col:nth-child(1) {
     width: 75%;
   }
