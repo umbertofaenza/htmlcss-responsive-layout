@@ -45,7 +45,8 @@ a {
   padding: 1rem;
 }
 
-section {
+section,
+#footer {
   padding: 50px 0;
 }
 
@@ -124,6 +125,11 @@ section {
 /* Get Started */
 #get-started {
   background-color: #9792e4;
+}
+
+/* Footer */
+#footer {
+  background-color: #333333;
 }
 
 /* 
