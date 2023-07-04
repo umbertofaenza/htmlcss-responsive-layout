@@ -301,6 +301,7 @@ section,
   padding: 1rem;
   border-radius: 50px;
   padding: 2.5rem;
+  height: 100%;
 }
 
 #benefits .card-content {
@@ -331,6 +332,7 @@ section,
 }
 
 /* Get Started */
+
 #get-started {
   background-color: #9792e4;
 }
