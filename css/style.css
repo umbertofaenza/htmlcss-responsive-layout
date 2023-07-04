@@ -155,6 +155,18 @@ section,
   margin-bottom: -1rem;
 }
 
+#intro .card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+
+#intro .card-content i {
+  font-size: 5rem;
+  color: #0084fd;
+}
+
 /* Planning */
 
 #planning {
