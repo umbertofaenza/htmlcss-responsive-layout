@@ -111,9 +111,11 @@ section,
 /* Intro */
 
 #intro .card {
-  background-color: #9ad4f2;
+  background-color: #b5ddff;
   padding: 1rem;
   font-weight: 700;
+  height: 100%;
+  border-radius: 20px;
 }
 
 #intro .card h3 {
