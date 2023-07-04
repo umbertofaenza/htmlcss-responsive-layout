@@ -136,6 +136,7 @@ a {
     width: 80%;
   }
 
+  /* main-header */
   .mobile-menu {
     display: none;
   }
@@ -144,11 +145,25 @@ a {
     display: flex;
   }
 
+  /* intro */
   #intro .card__half {
     width: 50%;
   }
 
   #intro .card.large-card {
     display: flex;
+  }
+
+  /* planning */
+  #planning .container {
+    width: 60%;
+  }
+
+  #planning .row {
+    display: flex;
+  }
+
+  #planning .col {
+    width: 50%;
   }
 }
