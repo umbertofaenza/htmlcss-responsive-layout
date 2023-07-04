@@ -157,6 +157,19 @@ section {
   #benefits .row.benefits__cards .col {
     width: 50%;
   }
+
+  /* about us */
+  #about-us .row {
+    display: flex;
+  }
+
+  #about-us .col:nth-child(1) {
+    width: 60%;
+  }
+
+  #about-us .col:nth-child(2) {
+    width: 40%;
+  }
 }
 
 /* Desktop */
