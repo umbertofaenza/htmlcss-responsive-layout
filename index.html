@@ -6,6 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Layout</title>
 
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akatab:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
     <!-- style -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -14,15 +25,21 @@
     <!-- main header -->
     <header id="main-header">
         <div class="container">
-            <div class="logo">LOGO</div>
-            <nav class="mobile-menu">MENU</nav>
+            <div class="logo">
+                <a href="#">
+                    <img src="./img/logo.png" alt="Logo">
+                </a>
+            </div>
+            <nav class="mobile-menu">
+                <i class="fa-solid fa-bars fa-2x"></i>
+            </nav>
             <nav class="desktop-menu">
                 <ul>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Button</a></li>
+                    <li><a href="#">Planning</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li class="get-started__button"><a href="#">Get Started</a></li>
                 </ul>
             </nav>
         </div>

@@ -19,6 +19,10 @@ a {
   color: currentColor;
 }
 
+body {
+  font-family: "Akatab", sans-serif;
+}
+
 /* 
 *************
     LAYOUT  *
@@ -59,9 +63,9 @@ section,
 /* Header */
 
 #main-header {
-  background-color: aqua;
+  background-color: #0084fd;
   height: 80px;
-  line-height: 80px;
+  color: white;
 
   position: fixed;
   top: 0;
@@ -70,22 +74,36 @@ section,
 }
 
 #main-header > .container {
+  height: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.mobile-menu {
+  cursor: pointer;
 }
 
 .desktop-menu {
   display: none;
+  font-size: 1.1rem;
 }
 
 .desktop-menu > ul {
   display: flex;
+  align-items: center;
 }
 
 .desktop-menu > ul > li {
   padding: 0 15px;
 }
 
+#main-header .get-started__button {
+  background-color: white;
+  color: #333333;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
 /* Intro */
 
 #intro .card {
@@ -187,7 +205,7 @@ section,
 
 @media screen and (min-width: 992px) {
   .container {
-    width: 80%;
+    max-width: 1140px;
   }
 
   /* main-header */
