@@ -221,6 +221,10 @@ section,
     width: calc(100% / 3 * 2);
   }
 
+  #intro .card__half.card-media {
+    width: 50%;
+  }
+
   /* benefits */
   #benefits .row.benefits__cards {
     display: flex;
