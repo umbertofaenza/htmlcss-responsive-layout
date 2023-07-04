@@ -435,6 +435,14 @@ section,
   background-color: #333333;
 }
 
+#footer .col {
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
 /* 
 *************
  RESPONSIVE *
