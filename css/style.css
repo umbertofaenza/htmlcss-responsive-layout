@@ -98,14 +98,21 @@ section {
   background-color: #9792e4;
 }
 
-#planning .col {
-  border: 1px solid black;
-}
-
 /* Testimonials */
 
 #testimonials .card {
   background-color: #9792e4;
+  padding: 1rem;
+}
+
+/* Benefits */
+
+#benefits {
+  background-color: #9792e4;
+}
+
+#benefits .card {
+  background-color: white;
   padding: 1rem;
 }
 
