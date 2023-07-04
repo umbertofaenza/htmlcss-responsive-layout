@@ -196,4 +196,9 @@ section {
   #planning .col {
     width: 50%;
   }
+
+  /* benefits */
+  #benefits .row.benefits__cards .col {
+    width: calc(100% / 3);
+  }
 }
