@@ -27,6 +27,19 @@ img {
   max-width: 100%;
 }
 
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
 /* 
 *************
     LAYOUT  *
@@ -56,6 +69,13 @@ img {
 section,
 #footer {
   padding: 50px 0;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
 }
 
 /* 
@@ -108,6 +128,7 @@ section,
   padding: 10px 15px;
   border-radius: 20px;
 }
+
 /* Intro */
 
 #intro .card {
@@ -120,13 +141,10 @@ section,
 
 #intro .card h3 {
   color: #0084fd;
-  font-size: 1.8rem;
-  font-weight: 900;
 }
 
 #intro .card p {
   color: #444444;
-  font-size: 1.2rem;
 }
 
 #intro .intro__button {
@@ -157,13 +175,6 @@ section,
   margin-bottom: -1rem;
 }
 
-#intro .card-content {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  text-align: center;
-}
-
 #intro .card-content i {
   font-size: 5rem;
   color: #0084fd;
@@ -178,6 +189,41 @@ section,
 #planning .card {
   background-color: white;
   padding: 1rem;
+}
+
+#planning h2 {
+  color: white;
+  font-weight: 900;
+  margin: 50px 0;
+}
+
+#planning p {
+  color: white;
+}
+
+#planning .card {
+  border-radius: 50px;
+  padding: 50px;
+}
+
+#planning .card p {
+  color: #333333;
+  font-style: italic;
+}
+
+#planning .card-content {
+  align-items: center;
+}
+
+.planning__button {
+  width: 70px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: #9792e4;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Testimonials */
