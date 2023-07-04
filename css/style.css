@@ -40,6 +40,7 @@ a {
   margin-left: -1rem;
   margin-right: -1rem;
 }
+
 .col {
   padding: 1rem;
 }
@@ -88,6 +89,17 @@ a {
 #intro .card {
   background-color: #9ad4f2;
   padding: 1rem;
+}
+
+/* Planning */
+
+#planning {
+  background-color: #9792e4;
+  padding: 50px 0;
+}
+
+#planning .col {
+  border: 1px solid black;
 }
 
 /* 
