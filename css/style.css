@@ -577,4 +577,9 @@ section,
   #about-us .col:nth-child(2) {
     width: 25%;
   }
+
+  /* get started */
+  #get-started p {
+    max-width: 50%;
+  }
 }
