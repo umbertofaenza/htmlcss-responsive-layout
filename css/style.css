@@ -134,6 +134,7 @@ section {
     width: 100%;
   }
 
+  /* intro */
   #intro .row {
     display: flex;
     flex-wrap: wrap;
