@@ -214,4 +214,14 @@ section {
   #benefits .row.benefits__cards .col {
     width: calc(100% / 3);
   }
+
+  /* about us */
+
+  #about-us .col:nth-child(1) {
+    width: 75%;
+  }
+
+  #about-us .col:nth-child(2) {
+    width: 25%;
+  }
 }
