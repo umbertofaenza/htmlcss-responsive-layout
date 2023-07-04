@@ -596,4 +596,9 @@ section,
   #get-started p {
     max-width: 50%;
   }
+
+  /* footer */
+  #footer p {
+    max-width: 50%;
+  }
 }
