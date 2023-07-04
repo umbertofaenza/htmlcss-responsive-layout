@@ -147,6 +147,16 @@ section {
   #intro .col:first-child {
     width: calc(100% / 3 * 2);
   }
+
+  /* benefits */
+  #benefits .row.benefits__cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #benefits .row.benefits__cards .col {
+    width: 50%;
+  }
 }
 
 /* Desktop */
