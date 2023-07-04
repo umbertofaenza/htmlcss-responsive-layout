@@ -262,6 +262,16 @@ section,
   gap: 20px;
 }
 
+#testimonials .fa-quote-left {
+  position: relative;
+  bottom: 7px;
+}
+
+#testimonials .fa-quote-right {
+  position: relative;
+  top: 7px;
+}
+
 #testimonials .card-content img {
   object-fit: cover;
   width: 200px;
