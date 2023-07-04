@@ -235,7 +235,9 @@ section,
 
 #testimonials .card {
   background-color: #9792e4;
-  padding: 1rem;
+  padding: 1.5rem 1rem;
+  color: white;
+  border-radius: 50px;
 }
 
 #testimonials h4 {
@@ -251,6 +253,25 @@ section,
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+#testimonials .card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+#testimonials .card-content img {
+  object-fit: cover;
+  width: 200px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+
+#testimonials .card-content span {
+  font-size: 1.4rem;
+  font-weight: 900;
 }
 
 /* Benefits */
